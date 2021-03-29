@@ -11,13 +11,15 @@ function Home() {
                     src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/HFC_21/Event_March/HeroPC_1500x600._CB657121219_.jpg" alt=""/>
 
                     <div className="home__row">
-                        <Product title="Laptop" 
+                        <Product id = "1234"
+                         title="Laptop" 
                         price={10000}
                          image="https://m.media-amazon.com/images/I/71vvXGmdKWL._AC_UY218_.jpg"
                          rating={2}
                         />
                             
-                        <Product title="shoes" 
+                        <Product id="12345"
+                        title="shoes" 
                         price={10000}
                          image="https://m.media-amazon.com/images/I/81zc8i+8qfL._AC_UL320_.jpg"
                          rating={2}/>
