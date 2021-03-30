@@ -28,7 +28,7 @@ function Subtotal() {
         value={getBasketTotal(basket)}
         displayType={"text"}
         thousandSeperator={true}
-        prefix={"$"}
+        prefix={"\u20A8 "}
       />
 
       <button> Proceed to checkout</button>
