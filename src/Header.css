@@ -59,6 +59,8 @@
 
 .header__optionLineOne {
     font-size: 10px;
+    display: flex;
+    text-decoration: none;
 }
 
 .header__optionLineTwo {
